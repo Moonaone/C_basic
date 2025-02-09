@@ -1,0 +1,11 @@
+﻿  main.cpp
+E:\VsCode\C\C_Project\Aircraft_Wars\Aircraft_Wars\Aircraft_Wars\main.cpp(15,2): error C2665: “loadimage”: 没有重载函数可以转换所有参数类型
+      E:\Visual_Studio_IDE\VC\Auxiliary\VS\include\easyx.h(258,6):
+      可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+          E:\VsCode\C\C_Project\Aircraft_Wars\Aircraft_Wars\Aircraft_Wars\main.cpp(15,2):
+          “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”: 无法将参数 2 从“const char [15]”转换为“LPCTSTR”
+              E:\VsCode\C\C_Project\Aircraft_Wars\Aircraft_Wars\Aircraft_Wars\main.cpp(15,18):
+              指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+      E:\VsCode\C\C_Project\Aircraft_Wars\Aircraft_Wars\Aircraft_Wars\main.cpp(15,2):
+      尝试匹配参数列表“(IMAGE *, const char [15])”时
+  
