@@ -86,4 +86,3 @@ void delete(HashTable* hashtable, const char* key)
         node = node->next;
     }
 }
-
